@@ -1,0 +1,680 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Español (México) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESM)
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MEXICAN
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 309, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Inicio de sesión"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        1,134,39,99,14,ES_AUTOHSCROLL
+    EDITTEXT        2,134,64,99,14,ES_AUTOHSCROLL
+    LTEXT           "Nombre usuario:",IDC_STATIC,64,64,70,8,0,WS_EX_RIGHT
+    RTEXT           "Contraseña:",IDC_STATIC,87,89,47,8
+    EDITTEXT        3,134,89,99,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Iniciar sesión",IDC_BUTTON1,129,122,50,14
+    RTEXT           "Comercio:",IDC_STATIC,87,39,47,8
+    PUSHBUTTON      "Registrar",IDC_BUTTON2,129,155,50,14
+    LTEXT           "!BIENVENIDO!",IDC_STATIC,132,7,45,8
+    PUSHBUTTON      "Salir",IDC_BUTTON3,17,155,50,14
+    CTEXT           "¿No tienes cuenta? !Registrate!",IDC_STATIC,94,145,120,8
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 309, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Registro"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Registrar",IDC_BUTTON5,252,155,50,14
+    RTEXT           "Contraseña:",IDC_STATIC,69,81,56,8
+    EDITTEXT        4,125,30,85,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Salir",IDC_BUTTON3,7,155,50,14
+    EDITTEXT        6,125,81,85,14,ES_AUTOHSCROLL
+    RTEXT           "Nombre:",IDC_STATIC,71,57,54,8
+    RTEXT           "Comercio:",IDC_STATIC,81,32,44,8
+    EDITTEXT        5,125,57,85,14,ES_AUTOHSCROLL
+    COMBOBOX        7,125,106,83,30,CBS_DROPDOWN | CBS_SORT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG3 DIALOGEX 0, 0, 389, 195
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Pantalla principal"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        131,24,39,66,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Cantidad de clientes:",150,23,24,73,8
+    LISTBOX         137,139,100,65,58,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Salir",139,267,156,50,14
+    EDITTEXT        132,109,39,66,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Promociones activas:",IDC_STATIC,108,24,73,8
+    EDITTEXT        133,196,39,65,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Promociones inactivas:",IDC_STATIC,195,24,73,8
+    CONTROL         "",134,"Static",SS_BITMAP,315,24,20,20
+    LTEXT           "Cantidad de clientes:",135,291,87,73,10
+    EDITTEXT        136,23,100,66,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Suma total de todos los consumos:",IDC_STATIC,23,78,73,20
+    LTEXT           "Suma total de todas las compras:",IDC_STATIC,142,78,95,20
+    EDITTEXT        138,222,102,66,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "$",IDC_STATIC,207,105,12,8
+END
+
+IDD_DIALOG4 DIALOGEX 0, 0, 325, 182
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Usuario info"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Aceptar",14,268,148,50,14
+    RTEXT           "Nombre:",IDC_STATIC,35,25,47,8
+    RTEXT           "Nombre completo:",IDC_STATIC,7,46,75,8
+    EDITTEXT        8,82,23,81,14,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",15,"Static",SS_BITMAP,230,23,15,13
+    EDITTEXT        9,82,46,81,14,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "Foto",12,213,68,50,14,WS_DISABLED
+    RTEXT           "Comercio:",IDC_STATIC,35,68,47,8
+    EDITTEXT        10,82,68,81,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Direccion:",IDC_STATIC,35,91,47,8,NOT WS_VISIBLE
+    EDITTEXT        11,82,91,81,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    COMBOBOX        13,82,134,77,30,CBS_DROPDOWN | CBS_SORT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Modificar",16,188,148,50,14
+    PUSHBUTTON      "Salir",17,7,148,50,14
+END
+
+IDD_DIALOG5 DIALOGEX 0, 0, 309, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Alta Usuario"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    RTEXT           "Comercio:",IDC_STATIC,34,28,46,8
+    COMBOBOX        21,80,110,73,46,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        18,80,46,78,14,ES_AUTOHSCROLL
+    RTEXT           "Nombre:",IDC_STATIC,7,46,73,8
+    RTEXT           "Contraseña:",IDC_STATIC,34,65,46,8
+    EDITTEXT        19,80,65,78,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Aceptar",24,252,155,50,14
+    PUSHBUTTON      "Regresar",25,7,155,50,14
+    CONTROL         "",26,"Static",SS_BITMAP,246,25,15,13
+    COMBOBOX        17,80,25,78,30,CBS_DROPDOWN | CBS_SORT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Estático",777,239,75,26,8
+END
+
+IDD_DIALOG6 DIALOGEX 0, 0, 493, 185
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Lista de usuario"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Registrar",48,421,155,50,14
+    PUSHBUTTON      "cambiar",50,303,87,50,14,WS_DISABLED
+    RTEXT           "Nombre completo:",IDC_STATIC,84,56,66,8
+    CONTROL         "",46,"Static",SS_BITMAP,291,30,15,13
+    EDITTEXT        42,149,23,69,14,ES_AUTOHSCROLL | WS_DISABLED
+    LISTBOX         41,7,14,76,105,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "nombre :",IDC_STATIC,84,41,66,8
+    RTEXT           "Direccion:",IDC_STATIC,83,73,66,8,NOT WS_VISIBLE
+    RTEXT           "Comercio:",IDC_STATIC,82,23,66,8
+    COMBOBOX        40,145,103,77,54,CBS_DROPDOWN | CBS_SORT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        45,149,74,69,14,ES_AUTOHSCROLL | NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        43,149,39,69,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        44,149,55,69,14,ES_AUTOHSCROLL | WS_DISABLED
+    DEFPUSHBUTTON   "Eliminar",49,293,155,50,14
+    DEFPUSHBUTTON   "Modificar",52,158,132,50,14
+    CONTROL         "",47,"Static",SS_BITMAP,415,23,20,20
+    DEFPUSHBUTTON   "Regresar",53,25,155,50,14
+    LTEXT           "Estático",778,417,84,26,8
+END
+
+IDD_DIALOG7 DIALOGEX 0, 0, 345, 185
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Cambiar contraseña"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Cambiar contraseña",66,147,151,82,14
+    LISTBOX         61,7,7,66,141,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",65,"Static",SS_BITMAP,275,32,15,13
+    EDITTEXT        63,139,62,97,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Contraseña:",IDC_STATIC,85,65,47,8
+    EDITTEXT        64,139,100,97,14,ES_AUTOHSCROLL
+    RTEXT           "Nueva contraseña:",IDC_STATIC,75,102,64,8
+    CTEXT           "Nombre:",68,262,84,48,8
+    PUSHBUTTON      "Salir",67,15,152,50,14
+END
+
+IDD_DIALOG8 DIALOGEX 0, 0, 339, 184
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Alta de Cliente"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",77,261,149,50,14
+    PUSHBUTTON      "Cancelar",78,19,148,50,14
+    LTEXT           "Estático",76,259,66,26,8
+    CONTROL         "",75,"Static",SS_BITMAP,263,24,15,13
+    EDITTEXT        71,114,24,83,14,ES_AUTOHSCROLL
+    LTEXT           "Nombre:",IDC_STATIC,78,24,28,8
+    CONTROL         "",74,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,105,115,100,15
+    LTEXT           "Email:",IDC_STATIC,77,45,20,8
+    EDITTEXT        72,113,45,83,14,ES_AUTOHSCROLL
+    LTEXT           "Comercio:",IDC_STATIC,77,68,33,8
+    COMBOBOX        73,115,71,81,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG9 DIALOGEX 0, 0, 367, 191
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Lista de Clientes"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Regresar",90,18,170,50,14
+    LISTBOX         80,7,18,79,137,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Nombre:",IDC_STATIC,91,29,44,8
+    EDITTEXT        81,142,29,95,14,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",85,"Static",SS_BITMAP,312,20,15,13
+    RTEXT           "Email:",IDC_STATIC,91,50,44,8
+    EDITTEXT        82,142,50,95,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Comercio:",IDC_STATIC,91,69,44,8
+    RTEXT           "Fecha:",IDC_STATIC,91,89,44,8
+    EDITTEXT        84,142,89,95,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Estático",86,301,74,44,8
+    PUSHBUTTON      "Modificar",87,163,122,50,14
+    PUSHBUTTON      "Eliminar",88,110,150,50,14
+    PUSHBUTTON      "Registrar",89,212,150,50,14
+    COMBOBOX        83,141,68,96,30,CBS_DROPDOWN | CBS_SORT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG10 DIALOGEX 0, 0, 377, 186
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Alta de Consumo"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",98,246,154,50,14
+    PUSHBUTTON      "Cancelar",99,3,154,50,14
+    LTEXT           "Estático",97,258,72,26,8
+    CONTROL         "",96,"Static",SS_BITMAP,264,26,15,13
+    CONTROL         "",95,"SysDateTimePick32",DTS_RIGHTALIGN | WS_DISABLED | WS_TABSTOP,123,111,100,15
+    RTEXT           " Cliente:",IDC_STATIC,3,7,46,8
+    EDITTEXT        92,123,43,100,14,ES_AUTOHSCROLL
+    RTEXT           "Monto:",IDC_STATIC,70,43,46,8
+    EDITTEXT        93,123,60,100,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        94,124,95,100,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Fecha:",IDC_STATIC,94,111,23,8
+    LISTBOX         91,3,26,72,117,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Comercio:",IDC_STATIC,223,116,33,8,NOT WS_VISIBLE
+    EDITTEXT        100,263,116,100,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    RTEXT           "ID:",IDC_STATIC,223,98,28,8,NOT WS_VISIBLE
+    EDITTEXT        102,259,94,100,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    EDITTEXT        104,123,26,100,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Cliente:",IDC_STATIC,91,26,26,8
+    RTEXT           "Subtotal:",IDC_STATIC,84,60,32,8
+    RTEXT           "Total:",IDC_STATIC,83,95,33,8
+    EDITTEXT        107,123,79,100,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Descuento:",IDC_STATIC,77,82,39,8
+    PUSHBUTTON      "Calcular",108,145,136,50,14
+END
+
+IDD_DIALOG11 DIALOGEX 0, 0, 365, 191
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Lista consumo"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Cancelar",110,308,156,50,14
+    LISTBOX         101,7,17,76,136,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Cliente:",IDC_STATIC,86,25,37,8
+    EDITTEXT        102,131,23,102,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        103,131,42,102,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        104,131,60,102,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        105,131,78,102,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Monto:",IDC_STATIC,86,44,37,8
+    RTEXT           "Subtotal:",IDC_STATIC,86,63,37,8
+    RTEXT           "Descuento:",IDC_STATIC,86,79,37,8
+    EDITTEXT        106,131,95,102,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Total:",IDC_STATIC,85,95,37,8
+    EDITTEXT        107,131,112,102,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Fecha:",IDC_STATIC,85,113,37,8
+    LTEXT           "Estático",109,297,86,26,8
+    CONTROL         "",108,"Static",SS_BITMAP,297,28,20,20
+END
+
+IDD_DIALOG12 DIALOGEX 0, 0, 385, 199
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Filtro"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Cancelar",120,328,178,50,14
+    LISTBOX         110,7,34,61,135,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         11,73,34,61,135,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Cleintes:",IDC_STATIC,7,26,29,8
+    LTEXT           "Consumos del Cliente:",IDC_STATIC,69,26,72,8
+    LTEXT           "Estático",119,325,89,26,8
+    CONTROL         "",118,"Static",SS_BITMAP,326,34,15,13
+    EDITTEXT        112,190,34,94,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Cliente:",IDC_STATIC,157,34,26,8
+    EDITTEXT        113,190,55,94,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Monto:",IDC_STATIC,155,55,24,8
+    EDITTEXT        114,190,74,94,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Subtotal:",IDC_STATIC,152,78,30,8
+    EDITTEXT        115,190,93,94,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Descuento:",IDC_STATIC,144,97,38,8
+    EDITTEXT        116,190,112,94,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Total:",IDC_STATIC,162,113,20,8
+    EDITTEXT        117,190,129,94,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Fecha:",IDC_STATIC,159,130,23,8
+END
+
+IDD_DIALOG13 DIALOGEX 0, 0, 309, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Alta promo"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",129,237,155,50,14
+    PUSHBUTTON      "Cancelar",130,14,155,50,14
+    EDITTEXT        121,85,37,96,14,ES_AUTOHSCROLL
+    LTEXT           "Estático",128,247,65,26,8
+    CONTROL         "",127,"Static",SS_BITMAP,251,17,15,13
+    CONTROL         "",124,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,83,91,100,15
+    RTEXT           "Nombre:",IDC_STATIC,51,39,28,8
+    EDITTEXT        122,85,54,96,14,ES_AUTOHSCROLL
+    RTEXT           "Monto:",IDC_STATIC,55,56,24,8
+    EDITTEXT        123,85,71,96,14,ES_AUTOHSCROLL
+    RTEXT           "Descuento:",IDC_STATIC,41,73,38,8
+    RTEXT           "Fecha:",IDC_STATIC,56,94,23,8
+    CONTROL         "Activo",125,"Button",BS_AUTORADIOBUTTON,87,123,36,10
+    CONTROL         "Inactivo",126,"Button",BS_AUTORADIOBUTTON,139,125,42,10
+    RTEXT           "Estatus:",IDC_STATIC,51,125,28,8
+    EDITTEXT        131,85,21,96,14,ES_AUTOHSCROLL
+    RTEXT           "Comercio:",IDC_STATIC,45,23,33,8
+END
+
+IDD_DIALOG14 DIALOGEX 0, 0, 323, 181
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Lista promoción:"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Cancelar",153,21,159,50,14
+    LISTBOX         141,13,17,67,131,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        142,126,33,96,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Estático",149,266,69,26,8
+    CONTROL         "",148,"Static",SS_BITMAP,273,26,15,13
+    CONTROL         "Activo",146,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,124,118,36,10
+    RTEXT           "Nombre:",IDC_STATIC,91,36,28,8
+    EDITTEXT        143,125,52,96,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Monto:",IDC_STATIC,95,55,24,8
+    EDITTEXT        144,125,74,96,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Descuento:",IDC_STATIC,81,76,38,8
+    EDITTEXT        145,125,94,96,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Fecha:",IDC_STATIC,89,97,23,8
+    RTEXT           "Estatus:",IDC_STATIC,91,118,28,8
+    CONTROL         "Inactivo",147,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,180,119,42,10
+    PUSHBUTTON      "Modificar",150,148,134,50,14
+    PUSHBUTTON      "Eliminar",151,94,159,50,14
+    PUSHBUTTON      "Registrar",152,201,159,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        VERTGUIDE, 104
+        VERTGUIDE, 134
+        VERTGUIDE, 154
+        VERTGUIDE, 233
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+        HORZGUIDE, 39
+        HORZGUIDE, 64
+        HORZGUIDE, 89
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        VERTGUIDE, 54
+        VERTGUIDE, 125
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+        HORZGUIDE, 30
+        HORZGUIDE, 57
+        HORZGUIDE, 81
+        HORZGUIDE, 106
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 382
+        VERTGUIDE, 23
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 188
+        HORZGUIDE, 24
+        HORZGUIDE, 78
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 318
+        VERTGUIDE, 73
+        VERTGUIDE, 120
+        VERTGUIDE, 154
+        VERTGUIDE, 205
+        VERTGUIDE, 238
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+        HORZGUIDE, 23
+        HORZGUIDE, 46
+        HORZGUIDE, 68
+        HORZGUIDE, 91
+    END
+
+    IDD_DIALOG5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        VERTGUIDE, 80
+        VERTGUIDE, 128
+        VERTGUIDE, 246
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+        HORZGUIDE, 25
+        HORZGUIDE, 46
+        HORZGUIDE, 65
+        HORZGUIDE, 83
+    END
+
+    IDD_DIALOG6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 486
+        VERTGUIDE, 150
+        VERTGUIDE, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 177
+        HORZGUIDE, 14
+    END
+
+    IDD_DIALOG7, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 338
+        VERTGUIDE, 40
+        VERTGUIDE, 140
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 177
+    END
+
+    IDD_DIALOG8, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 332
+        VERTGUIDE, 106
+        VERTGUIDE, 155
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 177
+        HORZGUIDE, 24
+        HORZGUIDE, 149
+    END
+
+    IDD_DIALOG9, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 360
+        VERTGUIDE, 135
+        VERTGUIDE, 189
+        VERTGUIDE, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 184
+        HORZGUIDE, 29
+        HORZGUIDE, 150
+    END
+
+    IDD_DIALOG10, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 370
+        VERTGUIDE, 63
+        VERTGUIDE, 70
+        VERTGUIDE, 170
+        VERTGUIDE, 223
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+        HORZGUIDE, 26
+        HORZGUIDE, 168
+    END
+
+    IDD_DIALOG11, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 358
+        VERTGUIDE, 123
+        VERTGUIDE, 131
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 184
+    END
+
+    IDD_DIALOG12, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 378
+        VERTGUIDE, 150
+        VERTGUIDE, 182
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+        HORZGUIDE, 34
+    END
+
+    IDD_DIALOG13, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        VERTGUIDE, 64
+        VERTGUIDE, 79
+        VERTGUIDE, 133
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_DIALOG14, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 316
+        VERTGUIDE, 46
+        VERTGUIDE, 119
+        VERTGUIDE, 173
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+        HORZGUIDE, 40
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG2 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG3 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG4 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG5 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG6 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG7 AFX_DIALOG_LAYOUT
+BEGIN
+    0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 100, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0
+END
+
+IDD_DIALOG8 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG9 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG10 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG11 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG12 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG13 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG14 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "Usuario"
+    BEGIN
+        MENUITEM "Alta",                        999
+        MENUITEM "Lista",                       998
+        MENUITEM "Información",                 997
+        MENUITEM "Restablecer Contraseña",      996
+    END
+    POPUP "Cliente"
+    BEGIN
+        MENUITEM "Alta",                        995
+        MENUITEM "Lista",                       994
+    END
+    POPUP "Promoción"
+    BEGIN
+        MENUITEM "Alta",                        993
+        MENUITEM "Lista",                       992
+    END
+    POPUP "Consumo"
+    BEGIN
+        MENUITEM "Alta",                        991
+        MENUITEM "Lista",                       990
+        MENUITEM "Filtro",                      989
+    END
+    POPUP "Salir"
+    BEGIN
+        MENUITEM "Salir",                       988
+    END
+END
+
+#endif    // Español (México) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
